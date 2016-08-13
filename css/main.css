@@ -1,0 +1,228 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+    overflow-x: hidden;
+
+}
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+img {
+    width: 100%;
+}
+
+@media only screen and (min-width: 60em) {
+    html {
+        font-size: 110%;
+    }
+    .nav {
+        text-align: right;
+        white-space: nowrap;
+    }
+}
+
+@media only screen and (min-width: 90em) {
+    html {
+        font-size: 120%;
+    }
+    .nav {
+        text-align: right;
+        white-space: nowrap;
+    }
+}
+
+@media only screen and (min-width: 120em) {
+    html {
+        font-size: 130%;
+    }
+    .nav {
+        text-align: right;
+        white-space: nowrap;
+    }
+}
+
+.skip-link {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.skip-link a {
+    position: absolute;
+    top: -10rem;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em 0.75em;
+    font-size: 1.25em;
+}
+
+.skip-link a:focus {
+    top: 0;
+}
+
+.header {
+    background-color: #cf0a2c;
+}
+.lion-logo {
+    position: relative;
+    height: 3rem;
+    padding-top: 0.75rem;
+    width: auto;
+}
+
+.nav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-footer {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav a {
+    color: white;
+    display: inline-block;
+}
+
+.nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+.nav-footer a {
+    color: white;
+    display: inline-block;
+}
+
+.nav-footer ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav-footer li {
+    display: inline-block;
+}
+
+.banner {
+  	position: relative;
+  	text-align: center;
+}
+
+.banner-img {
+	padding-top: 57%;
+	background: #fff url(../images/isometric.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.banner-content {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.55);
+  bottom: 50px;
+  width: 100%;
+}
+
+.f1-arrow-down {
+  color: #ffc700;
+  font-size: 4em;
+  text-align: center;
+  background-color: #cf0a2c;
+  border-radius: 50%;
+  width: 1em;
+  line-height: 1em;
+}
+
+.f1-arrow-down:hover {
+  color: #cf0a2c;
+  background-color: #ffc700;
+  transition: all 500ms ease-in;
+}
+
+.circle {
+  margin: auto 36% auto;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 25em) {
+    .nav li {
+        display: inline-block;
+        font-size: 1.0000rem;
+        line-height: 1.5000;
+    }
+    .nav {
+        text-align: right;
+        white-space: nowrap;
+    }
+    .nav-footer li {
+        display: inline-block;
+        font-size: 1.0000rem;
+        line-height: 1.5000;
+    }
+    .nav-footer {
+        text-align: center;
+        white-space: nowrap;
+    }
+}
+
+@media only screen and (min-width: 38em) {
+    .nav {
+        text-align: right;
+        white-space: nowrap;
+    }
+    .nav-footer {
+        text-align: center;
+        white-space: nowrap;
+    }
+}
+
+@media only screen and (min-width: 60em) {
+    .nav {
+        text-align: right;
+        white-space: nowrap;
+    }
+}
+
+
+
+
+
+
+
+
+
