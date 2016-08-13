@@ -171,8 +171,70 @@ a {
 }
 
 .circle {
-  margin: auto 36% auto;
+  margin: auto 33% auto;
+  display: block;
 }
+
+.me-bg {
+  background: url(../images/lion-bg.svg) no-repeat center center;
+}
+.me-illus {
+  min-width: 80px;
+  width: 15%;
+  margin: auto;
+  height: auto;
+  display: block;
+}
+
+.info {
+    padding: 2em;
+    max-width: 44em;
+    margin: 0 auto;
+}
+
+.icon {
+  font-size: 3em;
+  display: inline-block;
+  text-decoration: none;
+  color: #cf0a2c;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 20em;
+}
+
+.icon:hover {
+  color: #ffc700;
+}
+
+.app-icon {
+  min-width: 45px !IMPORTANT;
+  width: 15%;
+}
+
+.box {
+  max-width: 44em;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
