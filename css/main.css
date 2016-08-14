@@ -47,6 +47,11 @@ img {
         text-align: right;
         white-space: nowrap;
     }
+    .p-icon {
+        display: block;
+        height: 14rem;
+        width: auto;
+    }
 }
 
 @media only screen and (min-width: 120em) {
@@ -56,6 +61,11 @@ img {
     .nav {
         text-align: right;
         white-space: nowrap;
+    }
+    .p-icon {
+        display: block;
+        height: 16rem;
+        width: auto;
     }
 }
 
@@ -154,7 +164,7 @@ a {
   width: 100%;
 }
 
-.f1-arrow-down {
+.arrow{
   color: #ffc700;
   font-size: 4em;
   text-align: center;
@@ -162,9 +172,10 @@ a {
   border-radius: 50%;
   width: 1em;
   line-height: 1em;
+  display: inline-block;
 }
 
-.f1-arrow-down:hover {
+.arrow:hover {
   color: #cf0a2c;
   background-color: #ffc700;
   transition: all 500ms ease-in;
@@ -180,14 +191,13 @@ a {
 }
 .me-illus {
   min-width: 80px;
-  width: 15%;
+  width: 50%;
   margin: auto;
   height: auto;
   display: block;
 }
 
 .info {
-    padding: 2em;
     max-width: 44em;
     margin: 0 auto;
 }
@@ -214,11 +224,49 @@ a {
 .box {
   max-width: 44em;
   margin: 0 auto;
-  padding: 1em;
+  text-align: center;
 }
 
+.title {
+  color: white;
+  background-color: #cf0a2c;
+}
 
+.p-icon {
+  display: block;
+  height: 6rem;
+  width: auto;
+}
+.box-view {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  width: 60%;
+  border: 1px solid #cf0a2c;
+  border-radius: 20px;
+  color: #cf0a2c;
+  padding: 0.75em;
+}
 
+.box-view:hover{
+  color: white;
+  background: #cf0a2c;
+}
+
+.box-view a {
+  color: #cf0a2c;
+}
+
+.box-view a:hover {
+  color: white;
+  background: #cf0a2c;
+}
+
+.f-copy {
+  color: white;
+  background: #cf0a2c;
+  text-align: center;
+}
 
 
 
@@ -272,12 +320,28 @@ a {
         text-align: center;
         white-space: nowrap;
     }
+    .banner-content {
+        bottom: 110px;
+    }
+    .p-icon {
+        display: block;
+        height: 10rem;
+        width: auto;
+    }
+    .icon {
+        font-size: 4em;
+    }
 }
 
 @media only screen and (min-width: 60em) {
     .nav {
         text-align: right;
         white-space: nowrap;
+    }
+    .p-icon {
+        display: block;
+        height: 12rem;
+        width: auto;
     }
 }
 
