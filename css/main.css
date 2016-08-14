@@ -214,6 +214,7 @@ a {
 .box {
   max-width: 44em;
   margin: 0 auto;
+  padding: 1em;
 }
 
 
