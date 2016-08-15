@@ -47,11 +47,6 @@ img {
         text-align: right;
         white-space: nowrap;
     }
-    .p-icon {
-        display: block;
-        height: 14rem;
-        width: auto;
-    }
 }
 
 @media only screen and (min-width: 120em) {
@@ -61,11 +56,6 @@ img {
     .nav {
         text-align: right;
         white-space: nowrap;
-    }
-    .p-icon {
-        display: block;
-        height: 16rem;
-        width: auto;
     }
 }
 
@@ -198,7 +188,7 @@ a {
 }
 
 .info {
-    max-width: 44em;
+    max-width: 30em;
     margin: 0 auto;
 }
 
@@ -233,9 +223,20 @@ a {
 }
 
 .p-icon {
+  margin: 0 auto;
   display: block;
-  height: 6rem;
+  height: 10rem;
   width: auto;
+  
+}
+
+.p-title {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.2962rem;
+  line-height: 1.9500rem;
+  padding-top: 1.3rem;
+  padding-bottom: 1.3rem;
 }
 .box-view {
   margin: 0 auto;
@@ -464,6 +465,13 @@ a {
         text-align: center;
         white-space: nowrap;
     }
+    .p-icon {
+        margin: 0 auto;
+        display: block;
+        height: 10rem;
+        width: auto;
+
+    }
 }
 
 @media only screen and (min-width: 38em) {
@@ -478,13 +486,15 @@ a {
     .banner-content {
         bottom: 110px;
     }
-    .p-icon {
-        display: block;
-        height: 10rem;
-        width: auto;
-    }
     .icon {
         font-size: 4em;
+    }
+    .p-icon {
+        margin: 0 auto;
+        display: block;
+        height: 15rem;
+        width: auto;
+
     }
 }
 
@@ -494,10 +504,13 @@ a {
         white-space: nowrap;
     }
     .p-icon {
+        margin: 0 auto;
         display: block;
-        height: 12rem;
+        height: 20rem;
         width: auto;
+
     }
+    
 }
 
 
