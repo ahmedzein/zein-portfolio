@@ -242,9 +242,9 @@ a {
   text-align: center;
   display: block;
   width: 60%;
-  border: 1px solid #cf0a2c;
+  background: #ff3b3f;
+  color: #fff;
   border-radius: 20px;
-  color: #cf0a2c;
   padding: 0.75em;
 }
 
@@ -254,12 +254,7 @@ a {
 }
 
 .box-view a {
-  color: #cf0a2c;
-}
-
-.box-view a:hover {
   color: white;
-  background: #cf0a2c;
 }
 
 .f-copy {
@@ -269,15 +264,175 @@ a {
 }
 
 
+/*****************************portfolio************************************/
+.be-btn {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  width: 60%;
+  background: #ff3b3f;
+  color: #fff;
+  border-radius: 20px;
+  padding: 0.75em;
+}
 
+.be-btn:hover{
+  color: white;
+  background: #cf0a2c;
+}
 
+.be-btn a {
+  color: white;
+}
+/******************branding*****************/
+.b-bg {
+  background: #eac67a;
+}
 
+.b-btn {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  width: 60%;
+  background: #3cc47c;
+  color: #fff;
+  border-radius: 20px;
+  padding: 0.75em;
+}
 
+.b-btn:hover{
+  color: white;
+  background: #1e392a;
+}
 
+.b-btn a {
+  color: white;
+}
 
+/******************beats*****************/
+.p-bg {
+  background: #565656;
+}
 
+.p-btn {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  width: 60%;
+  background: #233237;
+  color: #fff;
+  border-radius: 20px;
+  padding: 0.75em;
+}
 
+.p-btn:hover{
+  color: white;
+  background: #18121e;
+}
 
+.p-btn a {
+  color: white;
+}
+
+/******************3 in the key*****************/
+.key-bg {
+  background: #dcc7aa;
+}
+
+.key-btn {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  width: 60%;
+  background: #eeaa7b;
+  color: #fff;
+  border-radius: 20px;
+  padding: 0.75em;
+}
+
+.key-btn:hover{
+  color: white;
+  background: #e37222;
+}
+
+.key-btn a {
+  color: white;
+}
+
+/******************laundry time*****************/
+.lt-bg {
+  background: #9099a2;
+}
+
+.lt-btn {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  width: 60%;
+  background: #eb6e80;
+  color: #fff;
+  border-radius: 20px;
+  padding: 0.75em;
+}
+
+.lt-btn:hover{
+  color: white;
+  background: #813772;
+}
+
+.lt-btn a {
+  color: white;
+}
+
+/******************work*****************/
+.w-bg {
+  background: #c0b283;
+}
+
+.w-btn {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  width: 60%;
+  background: #66b9bf;
+  color: #fff;
+  border-radius: 20px;
+  padding: 0.75em;
+}
+
+.w-btn:hover{
+  color: white;
+  background: #07889b;
+}
+
+.w-btn a {
+  color: white;
+}
+
+/******************illustration*****************/
+.illus-bg {
+  background: #d9d9d9;
+}
+
+.illus-btn {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  width: 60%;
+  background: #cdcdcd;
+  color: #fff;
+  border-radius: 20px;
+  padding: 0.75em;
+}
+
+.illus-btn:hover{
+  color: white;
+  background: #0e0b16;
+}
+
+.illus-btn a {
+  color: white;
+}
 
 
 
