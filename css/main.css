@@ -57,6 +57,12 @@ img {
         text-align: right;
         white-space: nowrap;
     }
+    .pieces {
+        width: 800px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+      }
 }
 
 .skip-link {
@@ -181,7 +187,7 @@ a {
 }
 .me-illus {
   min-width: 80px;
-  width: 50%;
+  width: 35%;
   margin: auto;
   height: auto;
   display: block;
@@ -237,6 +243,7 @@ a {
   line-height: 1.9500rem;
   padding-top: 1.3rem;
   padding-bottom: 1.3rem;
+  color: #cf0a2c;
 }
 .box-view {
   margin: 0 auto;
@@ -266,11 +273,18 @@ a {
 
 
 /*****************************portfolio************************************/
+.pieces {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
 .be-btn {
   margin: 0 auto;
   text-align: center;
   display: block;
-  width: 60%;
+  width: 80%;
   background: #ff3b3f;
   color: #fff;
   border-radius: 20px;
@@ -294,7 +308,7 @@ a {
   margin: 0 auto;
   text-align: center;
   display: block;
-  width: 60%;
+  width: 80%;
   background: #3cc47c;
   color: #fff;
   border-radius: 20px;
@@ -319,7 +333,7 @@ a {
   margin: 0 auto;
   text-align: center;
   display: block;
-  width: 60%;
+  width: 80%;
   background: #233237;
   color: #fff;
   border-radius: 20px;
@@ -344,7 +358,7 @@ a {
   margin: 0 auto;
   text-align: center;
   display: block;
-  width: 60%;
+  width: 80%;
   background: #eeaa7b;
   color: #fff;
   border-radius: 20px;
@@ -369,7 +383,7 @@ a {
   margin: 0 auto;
   text-align: center;
   display: block;
-  width: 60%;
+  width: 80%;
   background: #eb6e80;
   color: #fff;
   border-radius: 20px;
@@ -394,7 +408,7 @@ a {
   margin: 0 auto;
   text-align: center;
   display: block;
-  width: 60%;
+  width: 80%;
   background: #66b9bf;
   color: #fff;
   border-radius: 20px;
@@ -419,7 +433,7 @@ a {
   margin: 0 auto;
   text-align: center;
   display: block;
-  width: 60%;
+  width: 80%;
   background: #cdcdcd;
   color: #fff;
   border-radius: 20px;
@@ -494,8 +508,22 @@ a {
         display: block;
         height: 15rem;
         width: auto;
-
     }
+    .pieces {
+        width: 300px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+      }
+    .be-btn,
+    .b-btn,
+    .p-btn,
+    .key-btn,
+    .lt-btn,
+    .w-btn,
+  .illus-btn {
+    width: 44%;
+  }
 }
 
 @media only screen and (min-width: 60em) {
@@ -508,8 +536,22 @@ a {
         display: block;
         height: 20rem;
         width: auto;
-
     }
+    .pieces {
+        width: 500px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+      }
+  .be-btn,
+    .b-btn,
+    .p-btn,
+    .key-btn,
+    .lt-btn,
+    .w-btn,
+  .illus-btn {
+    width: 16%;
+  }
     
 }
 
