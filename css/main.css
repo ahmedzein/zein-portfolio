@@ -326,7 +326,7 @@ a {
 
 /******************beats*****************/
 .p-bg {
-  background: #565656;
+  background: #f5f5f5;
 }
 
 .p-btn {
@@ -334,7 +334,7 @@ a {
   text-align: center;
   display: block;
   width: 80%;
-  background: #233237;
+  background: #565656;
   color: #fff;
   border-radius: 20px;
   padding: 0.75em;
@@ -376,7 +376,7 @@ a {
 
 /******************laundry time*****************/
 .lt-bg {
-  background: #9099a2;
+  background: #eb6e80;
 }
 
 .lt-btn {
@@ -384,7 +384,7 @@ a {
   text-align: center;
   display: block;
   width: 80%;
-  background: #eb6e80;
+  background: #94618e;
   color: #fff;
   border-radius: 20px;
   padding: 0.75em;
@@ -392,7 +392,7 @@ a {
 
 .lt-btn:hover{
   color: white;
-  background: #813772;
+  background: #49274a;
 }
 
 .lt-btn a {
@@ -538,7 +538,7 @@ a {
         width: auto;
     }
     .pieces {
-        width: 500px;
+        width: 700px;
         height: auto;
         display: block;
         margin: 0 auto;
