@@ -88,10 +88,10 @@ img {
 .header {
     background-color: #cf0a2c;
 }
-.lion-logo {
+.wordmark {
     position: relative;
-    height: 3rem;
-    padding-top: 0.75rem;
+    height: 2.5rem;
+    padding-top: 1rem;
     width: auto;
 }
 
@@ -231,7 +231,7 @@ a {
 .p-icon {
   margin: 0 auto;
   display: block;
-  height: 10rem;
+  height: 7rem;
   width: auto;
   
 }
