@@ -178,8 +178,9 @@ a {
 }
 
 .circle {
-  margin: auto 33% auto;
   display: block;
+  padding-left: 1.3rem;
+  padding-right: 1.3rem;
 }
 
 .me-bg {
@@ -299,9 +300,9 @@ a {
 .be-btn a {
   color: white;
 }
-/******************branding*****************/
+/******************new york times*****************/
 .b-bg {
-  background: #eac67a;
+  background: #d3ac2b;
 }
 
 .b-btn {
@@ -309,19 +310,17 @@ a {
   text-align: center;
   display: block;
   width: 80%;
-  background: #3cc47c;
-  color: #fff;
+  background: #f4f3ea;
   border-radius: 20px;
   padding: 0.75em;
 }
 
 .b-btn:hover{
-  color: white;
-  background: #1e392a;
+  background: #cbd0d8;
 }
 
 .b-btn a {
-  color: white;
+  color: black;
 }
 
 /******************beats*****************/
@@ -401,7 +400,7 @@ a {
 
 /******************work*****************/
 .w-bg {
-  background: #c0b283;
+  background: #f7b733;
 }
 
 .w-btn {
@@ -514,7 +513,7 @@ a {
         height: auto;
         display: block;
         margin: 0 auto;
-      }
+    }
     .be-btn,
     .b-btn,
     .p-btn,
@@ -522,8 +521,12 @@ a {
     .lt-btn,
     .w-btn,
   .illus-btn {
-    width: 44%;
-  }
+        width: 44%;
+    }
+  
+    .p-title {
+        font-size: 1.4757rem;
+    }
 }
 
 @media only screen and (min-width: 60em) {
@@ -542,17 +545,21 @@ a {
         height: auto;
         display: block;
         margin: 0 auto;
-      }
-  .be-btn,
+    }
+  
+    .be-btn,
     .b-btn,
     .p-btn,
     .key-btn,
     .lt-btn,
     .w-btn,
-  .illus-btn {
-    width: 16%;
-  }
-    
+    .illus-btn {
+        width: 16%;
+    }
+  
+    .arrow {
+        font-size: 5.5em;
+    }   
 }
 
 
