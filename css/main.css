@@ -350,7 +350,7 @@ a {
 
 /******************3 in the key*****************/
 .key-bg {
-  background: #dcc7aa;
+  background: #dcd0c0;
 }
 
 .key-btn {
@@ -541,7 +541,7 @@ a {
         width: auto;
     }
     .pieces {
-        width: 700px;
+        width: 500px;
         height: auto;
         display: block;
         margin: 0 auto;
@@ -554,12 +554,15 @@ a {
     .lt-btn,
     .w-btn,
     .illus-btn {
-        width: 16%;
+        width: 22%;
     }
   
     .arrow {
         font-size: 5.5em;
-    }   
+    }
+    .banner-content {
+        bottom: 150px;
+    }
 }
 
 
