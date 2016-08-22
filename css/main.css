@@ -1,18 +1,35 @@
-@-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
+@-moz-viewport {
+  width: device-width;
+  scale: 1;
+}
+
+@-ms-viewport {
+  width: device-width;
+  scale: 1;
+}
+
+@-o-viewport {
+  width: device-width;
+  scale: 1;
+}
+
+@-webkit-viewport {
+  width: device-width;
+  scale: 1;
+}
+
+@viewport {
+  width: device-width;
+  scale: 1;
+}
 
 html {
   box-sizing: border-box;
-
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-    overflow-x: hidden;
-
+  overflow-x: hidden;
 }
 
 body {
@@ -21,136 +38,139 @@ body {
   padding: 0;
 }
 
-*, *::before, *::after {
-    box-sizing: inherit;
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
 img {
-    width: 100%;
+  width: 100%;
 }
 
-@media only screen and (min-width: 60em) {
-    html {
-        font-size: 110%;
-    }
-    .nav {
-        text-align: right;
-        white-space: nowrap;
-    }
+@media screen and (min-width: 60em) {
+  html {
+    font-size: 110%;
+  }
+  .nav {
+    text-align: right;
+    white-space: nowrap;
+  }
 }
 
-@media only screen and (min-width: 90em) {
-    html {
-        font-size: 120%;
-    }
-    .nav {
-        text-align: right;
-        white-space: nowrap;
-    }
+@media screen and (min-width: 90em) {
+  html {
+    font-size: 180%;
+  }
+  .nav {
+    text-align: right;
+    white-space: nowrap;
+  }
 }
 
-@media only screen and (min-width: 120em) {
-    html {
-        font-size: 130%;
-    }
-    .nav {
-        text-align: right;
-        white-space: nowrap;
-    }
-    .pieces {
-        width: 800px;
-        height: auto;
-        display: block;
-        margin: 0 auto;
-      }
+@media screen and (min-width: 120em) {
+  html {
+    font-size: 130%;
+  }
+  .nav {
+    text-align: right;
+    white-space: nowrap;
+  }
+  .pieces {
+    width: 800px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
 }
 
 .skip-link {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 .skip-link a {
-    position: absolute;
-    top: -10rem;
-    background-color: #000;
-    color: #fff;
-    text-decoration: none;
-    padding: 0.5em 0.75em;
-    font-size: 1.25em;
+  position: absolute;
+  top: -10rem;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5em 0.75em;
+  font-size: 1.25em;
 }
 
 .skip-link a:focus {
-    top: 0;
+  top: 0;
 }
 
 .header {
-    background-color: #cf0a2c;
+  background-color: #cf0a2c;
 }
+
 .wordmark {
-    position: relative;
-    height: 2.5rem;
-    padding-top: 1rem;
-    width: auto;
+  position: relative;
+  height: 2.5rem;
+  padding-top: 1rem;
+  width: auto;
 }
 
 .nav {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 .nav-footer {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .nav a {
-    color: white;
-    display: inline-block;
+  color: white;
+  display: inline-block;
 }
 
 .nav ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 .nav li {
-    display: inline-block;
+  display: inline-block;
 }
 
 .nav-footer a {
-    color: white;
-    display: inline-block;
+  color: white;
+  display: inline-block;
 }
 
 .nav-footer ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 .nav-footer li {
-    display: inline-block;
+  display: inline-block;
 }
 
 .banner {
-  	position: relative;
-  	text-align: center;
+  position: relative;
+  text-align: center;
 }
 
 .banner-img {
-	padding-top: 57%;
-	background: #fff url(../images/isometric.jpg) no-repeat center center;
-	background-size: cover;
+  padding-top: 57%;
+  background: #fff url(../images/isometric.jpg) no-repeat center center;
+  background-size: cover;
 }
 
 .banner-content {
@@ -160,32 +180,10 @@ a {
   width: 100%;
 }
 
-.arrow{
-  color: #ffc700;
-  font-size: 4em;
-  text-align: center;
-  background-color: #cf0a2c;
-  border-radius: 50%;
-  width: 1em;
-  line-height: 1em;
-  display: inline-block;
-}
-
-.arrow:hover {
-  color: #cf0a2c;
-  background-color: #ffc700;
-  transition: all 500ms ease-in;
-}
-
-.circle {
-  display: block;
-  padding-left: 1.3rem;
-  padding-right: 1.3rem;
-}
-
 .me-bg {
   background: url(../images/lion-bg.svg) no-repeat center center;
 }
+
 .me-illus {
   min-width: 80px;
   width: 35%;
@@ -195,8 +193,8 @@ a {
 }
 
 .info {
-    max-width: 30em;
-    margin: 0 auto;
+  max-width: 30em;
+  margin: 0 auto;
 }
 
 .icon {
@@ -234,7 +232,6 @@ a {
   display: block;
   height: 7rem;
   width: auto;
-  
 }
 
 .p-title {
@@ -246,6 +243,7 @@ a {
   padding-bottom: 1.3rem;
   color: #cf0a2c;
 }
+
 .box-view {
   margin: 0 auto;
   text-align: center;
@@ -257,7 +255,7 @@ a {
   padding: 0.75em;
 }
 
-.box-view:hover{
+.box-view:hover {
   color: white;
   background: #cf0a2c;
 }
@@ -274,6 +272,7 @@ a {
 
 
 /*****************************portfolio************************************/
+
 .pieces {
   width: 200px;
   height: auto;
@@ -292,7 +291,7 @@ a {
   padding: 0.75em;
 }
 
-.be-btn:hover{
+.be-btn:hover {
   color: white;
   background: #cf0a2c;
 }
@@ -300,7 +299,10 @@ a {
 .be-btn a {
   color: white;
 }
+
+
 /******************new york times*****************/
+
 .b-bg {
   background: #d3ac2b;
 }
@@ -315,7 +317,7 @@ a {
   padding: 0.75em;
 }
 
-.b-btn:hover{
+.b-btn:hover {
   background: #cbd0d8;
 }
 
@@ -323,7 +325,9 @@ a {
   color: black;
 }
 
+
 /******************beats*****************/
+
 .p-bg {
   background: #f5f5f5;
 }
@@ -339,7 +343,7 @@ a {
   padding: 0.75em;
 }
 
-.p-btn:hover{
+.p-btn:hover {
   color: white;
   background: #18121e;
 }
@@ -348,7 +352,9 @@ a {
   color: white;
 }
 
+
 /******************3 in the key*****************/
+
 .key-bg {
   background: #dcd0c0;
 }
@@ -364,7 +370,7 @@ a {
   padding: 0.75em;
 }
 
-.key-btn:hover{
+.key-btn:hover {
   color: white;
   background: #e37222;
 }
@@ -373,7 +379,9 @@ a {
   color: white;
 }
 
+
 /******************laundry time*****************/
+
 .lt-bg {
   background: #eb6e80;
 }
@@ -389,7 +397,7 @@ a {
   padding: 0.75em;
 }
 
-.lt-btn:hover{
+.lt-btn:hover {
   color: white;
   background: #49274a;
 }
@@ -398,7 +406,9 @@ a {
   color: white;
 }
 
+
 /******************work*****************/
+
 .w-bg {
   background: #f7b733;
 }
@@ -414,7 +424,7 @@ a {
   padding: 0.75em;
 }
 
-.w-btn:hover{
+.w-btn:hover {
   color: white;
   background: #07889b;
 }
@@ -423,7 +433,9 @@ a {
   color: white;
 }
 
+
 /******************illustration*****************/
+
 .illus-bg {
   background: #d9d9d9;
 }
@@ -439,7 +451,7 @@ a {
   padding: 0.75em;
 }
 
-.illus-btn:hover{
+.illus-btn:hover {
   color: white;
   background: #0e0b16;
 }
@@ -448,128 +460,110 @@ a {
   color: white;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (min-width: 25em) {
-    .nav li {
-        display: inline-block;
-        font-size: 1.0000rem;
-        line-height: 1.5000;
-    }
-    .nav {
-        text-align: right;
-        white-space: nowrap;
-    }
-    .nav-footer li {
-        display: inline-block;
-        font-size: 1.0000rem;
-        line-height: 1.5000;
-    }
-    .nav-footer {
-        text-align: center;
-        white-space: nowrap;
-    }
-    .p-icon {
-        margin: 0 auto;
-        display: block;
-        height: 10rem;
-        width: auto;
-
-    }
+@media screen and (min-width: 25em) {
+  .nav li {
+    display: inline-block;
+    font-size: 1.0000rem;
+    line-height: 1.5000;
+  }
+  .nav {
+    text-align: right;
+    white-space: nowrap;
+  }
+  .nav-footer li {
+    display: inline-block;
+    font-size: 1.0000rem;
+    line-height: 1.5000;
+  }
+  .nav-footer {
+    text-align: center;
+    white-space: nowrap;
+  }
+  .p-icon {
+    margin: 0 auto;
+    display: block;
+    height: 10rem;
+    width: auto;
+  }
 }
 
-@media only screen and (min-width: 38em) {
-    .nav {
-        text-align: right;
-        white-space: nowrap;
-    }
-    .nav-footer {
-        text-align: center;
-        white-space: nowrap;
-    }
-    .banner-content {
-        bottom: 110px;
-    }
-    .icon {
-        font-size: 4em;
-    }
-    .p-icon {
-        margin: 0 auto;
-        display: block;
-        height: 15rem;
-        width: auto;
-    }
-    .pieces {
-        width: 300px;
-        height: auto;
-        display: block;
-        margin: 0 auto;
-    }
-    .be-btn,
-    .b-btn,
-    .p-btn,
-    .key-btn,
-    .lt-btn,
-    .w-btn,
+@media screen and (min-width: 38em) {
+  .nav {
+    text-align: right;
+    white-space: nowrap;
+  }
+  .nav-footer {
+    text-align: center;
+    white-space: nowrap;
+  }
+  .banner-content {
+    bottom: 110px;
+  }
+  .icon {
+    font-size: 4em;
+  }
+  .p-icon {
+    margin: 0 auto;
+    display: block;
+    height: 10rem;
+    width: auto;
+  }
+  .pieces {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  .be-btn,
+  .b-btn,
+  .p-btn,
+  .key-btn,
+  .lt-btn,
+  .w-btn,
   .illus-btn {
-        width: 44%;
-    }
-  
-    .p-title {
-        font-size: 1.4757rem;
-    }
+    width: 44%;
+  }
+  .p-title {
+    font-size: 1.4757rem;
+  }
+  .me-illus {
+    width: 25%;
+  }
 }
 
-@media only screen and (min-width: 60em) {
-    .nav {
-        text-align: right;
-        white-space: nowrap;
-    }
-    .p-icon {
-        margin: 0 auto;
-        display: block;
-        height: 20rem;
-        width: auto;
-    }
-    .pieces {
-        width: 500px;
-        height: auto;
-        display: block;
-        margin: 0 auto;
-    }
-  
-    .be-btn,
-    .b-btn,
-    .p-btn,
-    .key-btn,
-    .lt-btn,
-    .w-btn,
-    .illus-btn {
-        width: 22%;
-    }
-  
-    .arrow {
-        font-size: 5.5em;
-    }
-    .banner-content {
-        bottom: 150px;
-    }
+@media screen and (min-width: 60em) {
+  .nav {
+    text-align: right;
+    white-space: nowrap;
+  }
+  .p-icon {
+    margin: 0 auto;
+    display: block;
+    height: 10rem;
+    width: auto;
+  }
+  .pieces {
+    width: 350px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  .be-btn,
+  .b-btn,
+  .p-btn,
+  .key-btn,
+  .lt-btn,
+  .w-btn,
+  .illus-btn {
+    width: 22%;
+  }
+  .arrow {
+    font-size: 5.5em;
+  }
+  .banner-content {
+    bottom: 150px;
+  }
+  .me-illus {
+    width: 20%;
+  }
 }
-
-
-
-
-
-
-
-
-
