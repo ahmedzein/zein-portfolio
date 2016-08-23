@@ -198,22 +198,8 @@ a {
 }
 
 .icon {
-  font-size: 3em;
-  display: inline-block;
-  text-decoration: none;
-  color: #cf0a2c;
-  text-align: center;
-  margin: 0 auto;
-  max-width: 20em;
-}
-
-.icon:hover {
-  color: #ffc700;
-}
-
-.app-icon {
   min-width: 45px !IMPORTANT;
-  width: 15%;
+  width: 11%;
 }
 
 .box {
@@ -241,7 +227,6 @@ a {
   line-height: 1.9500rem;
   padding-top: 1.3rem;
   padding-bottom: 1.3rem;
-  color: #cf0a2c;
 }
 
 .box-view {
@@ -437,7 +422,7 @@ a {
 /******************illustration*****************/
 
 .illus-bg {
-  background: #d9d9d9;
+  background: #cdcdcd;
 }
 
 .illus-btn {
@@ -445,7 +430,7 @@ a {
   text-align: center;
   display: block;
   width: 80%;
-  background: #cdcdcd;
+  background: #99ced4;
   color: #fff;
   border-radius: 20px;
   padding: 0.75em;
@@ -453,7 +438,7 @@ a {
 
 .illus-btn:hover {
   color: white;
-  background: #0e0b16;
+  background: #88bbd6;
 }
 
 .illus-btn a {
@@ -499,9 +484,7 @@ a {
   .banner-content {
     bottom: 110px;
   }
-  .icon {
-    font-size: 4em;
-  }
+  
   .p-icon {
     margin: 0 auto;
     display: block;
