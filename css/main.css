@@ -105,7 +105,7 @@ img {
 }
 
 .header {
-  background-color: #cf0a2c;
+  background-color: #ff3b3f;
 }
 
 .wordmark {
@@ -165,11 +165,12 @@ a {
 .banner {
   position: relative;
   text-align: center;
+  width: 102%;
 }
 
 .banner-img {
   padding-top: 57%;
-  background: #fff url(../images/isometric.jpg) no-repeat center center;
+  background: #fff url(../images/ahmed-branding-package.svg) no-repeat center center;
   background-size: cover;
 }
 
@@ -209,8 +210,7 @@ a {
 }
 
 .title {
-  color: white;
-  background-color: #cf0a2c;
+  color: #cf0a2c;
 }
 
 .p-icon {
@@ -240,18 +240,19 @@ a {
   padding: 0.75em;
 }
 
-.box-view:hover {
-  color: white;
-  background: #cf0a2c;
+.box-view a{
+  color: #fff;
 }
 
-.box-view a {
+.box-view:hover {
+  background: #cf0a2c;
   color: white;
+  
 }
 
 .f-copy {
   color: white;
-  background: #cf0a2c;
+  background: #ff3b3f;
   text-align: center;
 }
 
