@@ -1,7 +1,7 @@
 # Ahmed El-Zein
 
 Ahmed El-Zein a young graphic designer. Visual communication is underestimated and I am here to raise the bar.
-![Ahmed El-Zein, the designer](images/me-illus.svg)
+![Ahmed El-Zein, the designer](images/me.png)
 
 You can reach me at:
 
