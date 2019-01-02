@@ -318,29 +318,29 @@ a {
 }
 
 
-/******************beats*****************/
+/******************305 juice bar*****************/
 
-.p-bg {
+.jb-bg {
   background: #f5f5f5;
 }
 
-.p-btn {
+.jb-btn {
   margin: 0 auto;
   text-align: center;
   display: block;
   width: 80%;
-  background: #565656;
+  background: #046E8F;
   color: #fff;
   border-radius: 20px;
   padding: 0.75em;
 }
 
-.p-btn:hover {
+.jb-btn:hover {
   color: white;
-  background: #18121e;
+  background: #0090C1;
 }
 
-.p-btn a {
+.jb-btn a {
   color: white;
 }
 
@@ -506,7 +506,7 @@ a {
   }
   .be-btn,
   .b-btn,
-  .p-btn,
+  .jb-btn,
   .key-btn,
   .lt-btn,
   .w-btn,
@@ -549,7 +549,7 @@ a {
   }
   .be-btn,
   .b-btn,
-  .p-btn,
+  .jb-btn,
   .key-btn,
   .lt-btn,
   .w-btn,
