@@ -329,7 +329,7 @@ a {
   text-align: center;
   display: block;
   width: 80%;
-  background: #046E8F;
+  background: #0090C1;
   color: #fff;
   border-radius: 20px;
   padding: 0.75em;
@@ -337,7 +337,7 @@ a {
 
 .jb-btn:hover {
   color: white;
-  background: #0090C1;
+  background: #046E8F;
 }
 
 .jb-btn a {
