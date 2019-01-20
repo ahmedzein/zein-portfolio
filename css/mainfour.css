@@ -19,7 +19,6 @@ body {
   overflow-x: hidden;
   margin: 0;
   padding: 0;
-  background: #fff url(../images/lion-bg.svg);
 }
 
 *, *::before, *::after {
@@ -27,28 +26,28 @@ body {
 }
 
 @media only screen and (min-width: 60em) {
-  
+
   html {
     font-size: 110%;
   }
-  
-  
+
+
 }
 
 @media only screen and (min-width: 90em) {
-  
+
   html {
     font-size: 120%;
   }
-  
+
 }
 
 @media only screen and (min-width: 120em) {
-  
+
   html {
     font-size: 130%;
   }
-  
+
 }
 
 .skip-link {
