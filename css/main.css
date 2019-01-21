@@ -344,6 +344,32 @@ a {
   color: white;
 }
 
+/****************** Time2Learn *****************/
+
+.t2l-bg {
+  background: #fff;
+}
+
+.t2l-btn {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  width: 80%;
+  background: #9fbade;
+  color: #fff;
+  border-radius: 20px;
+  padding: 0.75em;
+}
+
+.t2l-btn:hover {
+  color: white;
+  background: #4D7EA8;
+}
+
+.t2l-btn a {
+  color: white;
+}
+
 
 /******************3 in the key*****************/
 
@@ -507,6 +533,7 @@ a {
   .be-btn,
   .b-btn,
   .jb-btn,
+  .t2l-btn,
   .key-btn,
   .lt-btn,
   .w-btn,
@@ -550,6 +577,7 @@ a {
   .be-btn,
   .b-btn,
   .jb-btn,
+  .t2l-btn,
   .key-btn,
   .lt-btn,
   .w-btn,
