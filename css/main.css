@@ -104,14 +104,9 @@ img {
   top: 0;
 }
 
-.header {
-  background-color: #ff3b3f;
-}
-
 .wordmark {
   position: relative;
-  height: 2.5rem;
-  padding-top: 1rem;
+  height: 2rem;
   width: auto;
 }
 
@@ -222,7 +217,7 @@ a {
 .p-icon {
   margin: 0 auto;
   display: block;
-  height: 7rem;
+  height: 8rem;
   width: auto;
 }
 
@@ -258,11 +253,16 @@ a {
 
 .f-copy {
   color: white;
-  background: #ff3b3f;
   text-align: center;
 }
 
+.f-icon-box {
+  padding-bottom: 0.700rem;
+}
 
+footer .navbar {
+  display: inline-block;
+}
 /*****************************portfolio************************************/
 
 .pieces {
@@ -490,18 +490,32 @@ a {
   }
   .nav-footer li {
     display: inline-block;
-    font-size: 1.0000rem;
+    font-size: 0.8rem;
     line-height: 1.5000;
   }
   .nav-footer {
-    text-align: center;
+    text-align: right;
     white-space: nowrap;
   }
   .p-icon {
     margin: 0 auto;
     display: block;
-    height: 7rem;
+    height: 8rem;
     width: auto;
+  }
+}
+
+@media screen and (min-width:740px) {
+  .f-copy {
+    color: white;
+    text-align: right;
+  }
+  footer .navbar {
+    display: flex;
+  }
+  .f-icon-box {
+    padding-bottom: 0;
+    width: 50%;
   }
 }
 
@@ -511,7 +525,7 @@ a {
     white-space: nowrap;
   }
   .nav-footer {
-    text-align: center;
+    text-align: right;
     white-space: nowrap;
   }
   .banner-content {

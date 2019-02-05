@@ -6,7 +6,8 @@
   <title>Ahmed El-Zein's Portfolio</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Martel+Sans:400,600" rel="stylesheet">
-  <link href="css/grid.css" rel="stylesheet">
+  <link href="bootstrap/css/bootstrap-grid.css" rel="stylesheet">
+  <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <meta name="description" content="Hello, my name is Ahmed El-Zein and I'm a graphic designer from Ottawa, Canada.">
@@ -18,28 +19,21 @@
     <li class="gutter"><a href="#main">Skip to main content</a></li>
     <li><a href="#navigation">Skip to main navigation</a></li>
   </ul>
-  <header class="header grid">
-    <!--    logo-->
-    <div class="gutter unit unit-xs-1-3 unit-s-1-3 unit-m-1-3 unit-l-1-3 unit-xl-1-3">
-      <a href="index.html">
-        <img class="wordmark" src="images/namewhite.svg" alt="wordmark"></a>
-    </div>
-    <!--    navagation-->
-    <nav class="unit unit-xs-2-3 unit-s-2-3 unit-m-2-3 unit-l-2-3 unit-xl-2-3 pad-t">
-      <ul class="nav micro text-right">
-        <li class=""><a href="#AHMED">AHMED</a></li>
-        <li class="pad-b gutter"><a href="portfolio.html">PORTFOLIO</a></li>
+
+  <header style="background-color: #ff3b3f;">
+    <nav class="navbar pad-b">
+      <a href="#"><img src="images/namewhite.svg" class="wordmark" alt="ahmed el-zein's wordmark"></a>
+
+      <ul class="nav micro ml-auto">
+        <li class="nav-item gutter"><a href="#AHMED">AHMED</a></li>
+        <li class="nav-item"><a href="portfolio.html">PORTFOLIO</a></li>
       </ul>
     </nav>
   </header>
 
-  <main class="">
+  <main>
     <div class="banner">
       <div class="banner-img"></div>
-      <!-- <div class="banner-content island-1-2">
-        <h1 class="bb-header yotta push-0">Welcome to the world</h1>
-        <h2 class="bb-header yotta push-0">of great design!</h2>
-      </div> -->
     </div>
   </main>
 
@@ -47,89 +41,81 @@
 
 
     <!-- Bio Section-->
-    <div class="grid">
-      <div class="island">
-        <h1 class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1 text-center pad-t yotta">Ahmed El-Zein</h1>
-        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-2">
-          <img class="me-illus" src="images/me.png" alt="photo of Ahmed El-Zein" id="AHMED" style="">
-        </div>
+    <div class="container">
+      <h1 class="text-center island yotta push-0">Ahmed El-Zein</h1>
+      <div class="row">
 
-        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-2">
-          <p class="info">Hello, my name is Ahmed El-Zein and I'm a graphic designer from Ottawa, Canada. This is how my creative mind works... I have the killer instinct; the <i>Mamba Mentality</i>. I know for a fact that any project I touch, I will blow your mind!
-            All of the little details matter to me as I believe perfection can be achieved. My work is timeless; it holds it's integrity. My inspiration comes from exploration. Travelling the world and interacting with different people, cultures, and
-            nature fuels my work and keeps my ideas fresh. Inspired by many great designers before me I also want to leave my mark in this field of visual communication.</p>
+        <div class="col-md-5">
+          <img class="me-illus" src="images/ahmed-elzein.png" alt="photo of Ahmed El-Zein" id="AHMED" style="">
+
           <div class="box">
-            <div class="pad-t-1-2">
+            <div class="pad-b">
               <a class="" href="http://ca.linkedin.com/pub/ahmed-el-zein/a4/469/316" target="_blank"><img class="icon" src="images/icon-linkedin-black.svg" alt="Linkedin Icon"></a>
               <a class="gutter-1-2" href="http://www.behance.net/ahmedelzein" target="_blank"><img class="icon" src="images/icon-behance-black.svg" alt="Behance Icon"></a>
               <!-- <a class="" href="http://ahmedelzein.ca/app" target="_blank"><img class="icon" src="images/icon-app-black.svg" alt="App Icon"></a> -->
-              <a class="gutter-1-2" href="mailto:hello@ahmedelzein.ca" target="_blank"><img class="icon" src="images/icon-mail-black.svg" alt="Mail Icon"></a>
+              <a href="mailto:hello@ahmedelzein.ca" target="_blank"><img class="icon" src="images/icon-mail-black.svg" alt="Mail Icon"></a>
             </div>
           </div>
+        </div>
+
+        <div class="col-md-7">
+          <p class="info">Hello, my name is Ahmed El-Zein and I'm a graphic designer from Ottawa, Canada. This is how my creative mind works... I have the killer instinct; the <i>Mamba Mentality</i>. I know for a fact that any project I touch, I will blow your mind! All of the little details matter to me as I believe perfection can be achieved. My work is timeless; it holds it's integrity. My inspiration comes from exploration. Travelling the world and interacting with different people, cultures, and nature fuels my work and keeps my ideas fresh. Inspired by many great designers before me I also want to leave my mark in this field of visual communication.</p>
         </div>
       </div>
     </div>
 
     <!-- Portfolio -->
-    <div>
+    <div class="container">
       <h2 class="yotta text-center pad-t-1-2" id="portfolio.html">PORTFOLIO</h2>
-      <div class="island">
-        <div class="grid">
-          <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-4 unit-l-1-4 unit-xl-1-4">
-            <img class="gutter p-icon unit unit-xs-1 unit-s-1 unit-m-1-4 unit-l-1-4 unit-xl-1-4" src="images/icon-identity.svg" alt="Branding Icon; Fingerprint">
-            <h3 class="p-title unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1">Identity</h3>
+      <div class="row">
+          <div class="col-6 col-sm-3">
+            <figure>
+              <img class="p-icon" src="images/icon-identity.svg" alt="Branding Icon; Fingerprint">
+              <figcaption><h3 class="p-title">Identity</h3></figcaption>
+            </figure>
           </div>
 
-          <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-4 unit-l-1-4 unit-xl-1-4">
-            <img class="gutter p-icon unit unit-xs-1 unit-s-1 unit-m-1-4 unit-l-1-4 unit-xl-1-4" src="images/icon-print.svg" alt="Print Icon; Printer">
-            <h3 class="p-title unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1">Print</h3>
+          <div class="col-6 col-sm-3">
+            <figure>
+              <img class="p-icon" src="images/icon-print.svg" alt="Print Icon; Printer">
+              <figcaption><h3 class="p-title">Print</h3></figcaption>
+            </figure>
           </div>
 
-          <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-4 unit-l-1-4 unit-xl-1-4">
-            <img class="gutter p-icon unit unit-xs-1 unit-s-1 unit-m-1-4 unit-l-1-4 unit-xl-1-4" src="images/icon-ui-ux.svg" alt="UI/UX Icon; Desktop, Tablet & Mobile devices">
-            <h3 class="p-title unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1">UI/UX</h3>
+          <div class="col-6 col-sm-3">
+            <figure>
+              <img class="p-icon" src="images/icon-ui-ux.svg" alt="UI/UX Icon; Desktop, Tablet & Mobile devices">
+              <figcaption><h3 class="p-title">UI/UX</h3></figcaption>
+            </figure>
           </div>
 
-          <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-4 unit-l-1-4 unit-xl-1-4">
-            <img class="gutter p-icon unit unit-xs-1 unit-s-1 unit-m-1-4 unit-l-1-4 unit-xl-1-4" src="images/icon-illustration.svg" alt="Illustration Icon; Pencil">
-            <h3 class="p-title unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1">Illustration</h3>
+          <div class="col-6 col-sm-3">
+            <figure>
+              <img class="p-icon" src="images/icon-illustration.svg" alt="Illustration Icon; Pencil">
+              <figcaption><h3 class="p-title">Illustration</h3></figcaption>
+            </figure>
           </div>
-
         </div>
       </div>
+
       <div class="pad-b-2">
         <h3 class="box-view"><a href="portfolio.html">View Portfolio</a></h3>
       </div>
-    </div>
+
   </article>
-  <!--  FACE 4-->
-  <footer class="">
-      <div class="grid f-copy">
-        <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1">
-          <ul class="nav killo" style="padding-top:1.5rem;">
-            <li class=""><a href="#AHMED">AHMED</a></li>
-            <li class="gutter"><a href="portfolio.html">PORTFOLIO</a></li>
-          </ul>
-        </div>
 
-        <h4 class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1 island text-center zeta push-0">Like what you see. Contact me!</h4>
-        <div class="box">
-          <div class="pad-t-1-2 pad-b">
-            <a class="" href="http://ca.linkedin.com/pub/ahmed-el-zein/a4/469/316" target="_blank"><img class="f-icon" src="images/icon-linkedin-white.svg" alt="Linkedin Icon"></a>
 
-            <a class="" href="http://www.behance.net/ahmedelzein" target="_blank" style="padding-left:1.5rem;"><img class="f-icon" src="images/icon-behance-white.svg" alt="Behance Icon"></a>
-
-            <!-- <a class="" href="http://ahmedelzein.ca/app" target="_blank" style="padding-left:1.5rem;"><img class="f-icon" src="images/icon-app-white.svg" alt="App Icon"></a> -->
-
-            <a class="" href="mailto:hello@ahmedelzein.ca" target="_blank" style="padding-left:1.5rem;"><img class="f-icon" src="images/icon-mail-white.svg" alt="Mail Icon"></a>
-          </div>
-        </div>
-
-        <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1">
-          <p class="island micro push-0">© 2019 Ahmed El-Zein | All Rights Reserved.</p>
-        </div>
+  <footer style="background-color: #ff3b3f;">
+    <div class="navbar">
+      <div class="f-icon-box">
+        <a href="http://ca.linkedin.com/pub/ahmed-el-zein/a4/469/316"><img class="f-icon wordmark " src="images/icon-linkedin-white.svg" target="_blank" alt="Linkedin Icon"></a>
+        <a href="http://www.behance.net/ahmedelzein"><img class="f-icon wordmark " src="images/icon-behance-white.svg" target="_blank" alt="Behance Icon"></a>
+        <a href="mailto:hello@ahmedelzein.ca"><img class="f-icon wordmark" src="images/icon-mail-white.svg" alt="Mail Icon"></a>
       </div>
-  </footer>
-</body>
 
+      <p class="micro push-0 f-copy">© 2019 Ahmed El-Zein | All Rights Reserved.</p>
+    </div>
+  </footer>
+
+</body>
 </html>
