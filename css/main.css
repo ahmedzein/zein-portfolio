@@ -388,6 +388,14 @@ footer .navbar {
   padding: 0.75em;
 }
 
+.key-link {
+  color: white;
+}
+
+.key-link:hover {
+  color: #e37222;
+}
+
 .key-btn:hover {
   color: white;
   background: #e37222;
