@@ -466,7 +466,7 @@ footer .navbar {
 /******************illustration*****************/
 
 .illus-bg {
-  background: #cdcdcd;
+  background: #EFE9E7;
 }
 
 .illus-btn {
@@ -474,7 +474,7 @@ footer .navbar {
   text-align: center;
   display: block;
   width: 80%;
-  background: #99ced4;
+  background: #E1B433;
   color: #fff;
   border-radius: 20px;
   padding: 0.75em;
@@ -482,7 +482,7 @@ footer .navbar {
 
 .illus-btn:hover {
   color: white;
-  background: #88bbd6;
+  background: #D9A100;
 }
 
 .illus-btn a {
