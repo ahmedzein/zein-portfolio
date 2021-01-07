@@ -112,7 +112,7 @@ img {
 
 .wordmark {
   position: relative;
-  height: 2rem;
+  height: 1.5rem;
   width: auto;
 }
 
@@ -206,7 +206,7 @@ a {
 }
 
 .f-icon {
-  min-width: 45px !IMPORTANT;
+  /* min-width: 45px !IMPORTANT; */
   width: 12%;
 }
 
