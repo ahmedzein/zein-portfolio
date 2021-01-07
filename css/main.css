@@ -77,7 +77,13 @@ img {
     white-space: nowrap;
   }
   .pieces {
-    width: 800px;
+    width: auto;
+    height: 700px;
+    display: block;
+    margin: 0 auto;
+  }
+  .piece-name {
+    width: 600px;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -266,7 +272,14 @@ footer .navbar {
 /*****************************portfolio************************************/
 
 .pieces {
-  width: 200px;
+  width: auto;
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+.piece-name {
+  width: 250px;
   height: auto;
   display: block;
   margin: 0 auto;
@@ -321,7 +334,7 @@ footer .navbar {
 /****************** 305 juice bar*****************/
 
 .jb-bg {
-  background: #f5f5f5;
+  background: #dcdcdc;
 }
 
 .jb-btn {
@@ -347,7 +360,7 @@ footer .navbar {
 /****************** Time2Learn *****************/
 
 .t2l-bg {
-  background: #fff;
+  background: #cd925f;
 }
 
 .t2l-btn {
@@ -406,32 +419,85 @@ footer .navbar {
 }
 
 
-/******************laundry time*****************/
+/******************laundry care*****************/
 
-.lt-bg {
-  /* background: #eb6e80; */
-  background: #80A1C1;
+.lc-bg {
+  background: #eb6e80;
+  /* background: #80A1C1; */
 }
 
-.lt-btn {
+.lc-btn {
   margin: 0 auto;
   text-align: center;
   display: block;
   width: 80%;
-  /* background: #94618e; */
-  background: #BA3F1D;
+  background: #94618e;
+  /* background: #BA3F1D; */
   color: #fff;
   border-radius: 20px;
   padding: 0.75em;
 }
 
-.lt-btn:hover {
+.lc-btn:hover {
   color: white;
-  /* background: #49274a; */
-  background: #8B2F16;
+  background: #49274a;
+  /* background: #8B2F16; */
 }
 
-.lt-btn a {
+.lc-btn a {
+  color: white;
+}
+
+
+/****************** Canadian Army Podcast*****************/
+
+.cap-bg {
+  background: #6d8837;
+}
+
+.cap-btn {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  width: 80%;
+  background: #50593e;
+  color: #fff;
+  border-radius: 20px;
+  padding: 0.75em;
+}
+
+.cap-btn:hover {
+  color: white;
+  background: #3d442f;
+}
+
+.cap-btn a {
+  color: white;
+}
+
+/****************** Bench the Barriers*****************/
+
+.btb-bg {
+  background: #6897c8;
+}
+
+.btb-btn {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  width: 80%;
+  background: #38618c;
+  color: #fff;
+  border-radius: 20px;
+  padding: 0.75em;
+}
+
+.btb-btn:hover {
+  color: white;
+  background: #2a4b6d;
+}
+
+.btb-btn a {
   color: white;
 }
 
@@ -550,6 +616,12 @@ footer .navbar {
     width: auto;
   }
   .pieces {
+    width: auto;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+  }
+  .piece-name {
     width: 300px;
     height: auto;
     display: block;
@@ -560,7 +632,9 @@ footer .navbar {
   .jb-btn,
   .t2l-btn,
   .key-btn,
-  .lt-btn,
+  .lc-btn,
+  .cap-btn,
+  .btb-btn,
   .w-btn,
   .illus-btn {
     width: 44%;
@@ -593,7 +667,13 @@ footer .navbar {
     width: auto;
   }
   .pieces {
-    width: 350px;
+    width: auto;
+    height: 500px;
+    display: block;
+    margin: 0 auto;
+  }
+  .piece-name {
+    width: 400px;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -603,7 +683,9 @@ footer .navbar {
   .jb-btn,
   .t2l-btn,
   .key-btn,
-  .lt-btn,
+  .lc-btn,
+  .cap-btn,
+  .btb-btn,
   .w-btn,
   .illus-btn {
     width: 22%;
