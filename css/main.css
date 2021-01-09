@@ -206,7 +206,7 @@ a {
 }
 
 .f-icon {
-  /* min-width: 45px !IMPORTANT; */
+  min-width: 45px !IMPORTANT;
   width: 12%;
 }
 
