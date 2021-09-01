@@ -6,7 +6,8 @@
 html {
   font-size: 100%;
   line-height: 1.3;
-  font: normal 100%/1.5 "Martel Sans", sans-serif; 
+  /* font: normal 100%/1.5 "Martel Sans", sans-serif; */
+  font: normal 100%/1.5 "Nunito", sans-serif;
 }
 
 a {

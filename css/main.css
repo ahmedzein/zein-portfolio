@@ -94,6 +94,7 @@ img {
   margin: 0;
   padding: 0;
   list-style-type: none;
+  display: none;
 }
 
 .skip-link a {
@@ -130,11 +131,11 @@ img {
 
 a {
   text-decoration: none;
-  color: black;
+  color: #212326;
 }
 
 .nav a {
-  color: white;
+  color: #212326;
   display: inline-block;
 }
 
@@ -149,7 +150,7 @@ a {
 }
 
 .nav-footer a {
-  color: white;
+  color: #212326;
   display: inline-block;
 }
 
@@ -195,6 +196,10 @@ a {
   display: block;
 }
 
+.ahmed-avatar {
+  width: 20%;
+}
+
 .info {
   max-width: 30em;
   margin: auto;
@@ -202,7 +207,7 @@ a {
 
 .icon {
   min-width: 45px !IMPORTANT;
-  width: 15%;
+  width: 8%;
 }
 
 .f-icon {
@@ -212,26 +217,23 @@ a {
 
 .box {
   max-width: 44em;
-  margin: 0 auto;
-  text-align: center;
+  /* margin: 0 auto; */
 }
 
 .title {
-  color: #cf0a2c;
+  text-align: center;
 }
 
 .p-icon {
   margin: 0 auto;
   display: block;
-  height: 8rem;
+  height: 6rem;
   width: auto;
 }
 
 .p-title {
   margin: 0 auto;
   text-align: center;
-  font-size: 1.2962rem;
-  line-height: 1.9500rem;
   padding-top: 1.3rem;
   padding-bottom: 1.3rem;
 }
@@ -290,7 +292,7 @@ footer .navbar {
   text-align: center;
   display: block;
   width: 80%;
-  background: #ff3b3f;
+  background: #CE202F;
   color: #fff;
   border-radius: 20px;
   padding: 0.75em;
@@ -298,7 +300,7 @@ footer .navbar {
 
 .be-btn:hover {
   color: white;
-  background: #cf0a2c;
+  background: #9B1722;
 }
 
 .be-btn a {
@@ -594,6 +596,9 @@ footer .navbar {
     padding-bottom: 0;
     width: 50%;
   }
+  .title {
+    text-align: left;
+  }
 }
 
 @media screen and (min-width: 38em) {
@@ -639,14 +644,15 @@ footer .navbar {
   .illus-btn {
     width: 44%;
   }
-  .p-title {
-    font-size: 1.4757rem;
-  }
+
   .me-illus {
     width: 85%;
   }
   .icon {
-    width: 17%;
+    width: 5%;
+  }
+  .ahmed-avatar {
+    width: 11%;
   }
   .f-icon {
     width: 10%;
@@ -700,7 +706,10 @@ footer .navbar {
     width: 60%;
   }
   .icon {
-    width: 15%;
+    width: 6%;
+  }
+  .ahmed-avatar {
+    width: 10%;
   }
   .f-icon {
     width: 10%;

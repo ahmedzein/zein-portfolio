@@ -5,12 +5,14 @@
   <meta charset="utf-8">
   <title>Ahmed El-Zein's Portfolio</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=Martel+Sans:400,600" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600&display=swap" rel="stylesheet">
   <link href="bootstrap/css/bootstrap-grid.css" rel="stylesheet">
   <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
-  <meta name="description" content="Hello, my name is Ahmed El-Zein and I'm a graphic designer from Ottawa, Canada.">
+  <meta name="description" content="Hello, my name is Ahmed El-Zein and I'm a senior level designer from Ottawa, Canada.">
   <link href="favicon.ico" rel="shortcut icon">
 </head>
 
@@ -20,102 +22,122 @@
     <li><a href="#navigation">Skip to main navigation</a></li>
   </ul>
 
-  <header style="background-color: #ff3b3f;">
+  <header>
     <nav class="navbar pad-b">
-      <a href="#"><img src="images/namewhite.svg" class="wordmark" alt="ahmed el-zein's wordmark"></a>
+      <a href="#"><img src="images/name.svg" class="wordmark" alt="ahmed el-zein's wordmark"></a>
 
       <ul class="nav micro ml-auto">
-        <li class="nav-item gutter"><a href="#AHMED">Ahmed</a></li>
-        <li class="nav-item"><a href="portfolio.html">Portfolio</a></li>
+        <li class="nav-item"><a href="#ABOUTME" class="micro">About Me</a></li>
+        <li class="nav-item gutter"><a href="portfolio.html" class="micro">Portfolio</a></li>
+        <li class="nav-item"><a href="document/ahmed-elzein-resume.pdf" target="_blank" class="micro">Resume</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <div class="banner">
-      <div class="banner-img"></div>
+    <!-- Title and illustration -->
+    <div class="container">
+      <div class="row align-items-center pad-t-2">
+
+        <div class="col-md-5 title">
+          <h1 class="peta" style="color:#ce0e2d; margin:0;">Hello! I'm Ahmed.</h1>
+          <h2 class="mega" style="color:#414042">I'm a graphic and UI/UX designer.</h2>
+        </div>
+
+        <div class="col-md-7">
+          <img class="" src="images/ahmed-elzein-desk-work-illustration.svg" alt="flat design illustration of Ahmed El-Zein at his desk" style="">
+        </div>
+
+      </div>
     </div>
   </main>
 
   <article role="main" id="main" class="">
-
-
     <!-- Bio Section-->
-    <div class="container pad-b-2">
-      <h1 class="text-center island yotta push-0">Ahmed El-Zein</h1>
-      <div class="row align-items-center">
-
-        <div class="col-md-4">
-          <img class="me-illus" src="images/ahmed-elzein.png" alt="photo of Ahmed El-Zein" id="AHMED" style="">
-
-          <div class="box">
-            <div class="pad-b">
-              <a class="" href="http://ca.linkedin.com/pub/ahmed-el-zein/a4/469/316" target="_blank"><img class="icon" src="images/icon-linkedin-black.svg" alt="Linkedin Icon"></a>
-              <a class="gutter-1-2" href="http://www.behance.net/ahmedelzein" target="_blank"><img class="icon" src="images/icon-behance-black.svg" alt="Behance Icon"></a>
-              <!-- <a class="" href="http://ahmedelzein.ca/app" target="_blank"><img class="icon" src="images/icon-app-black.svg" alt="App Icon"></a> -->
-              <a href="mailto:hello@ahmedelzein.ca" target="_blank"><img class="icon" src="images/icon-mail-black.svg" alt="Mail Icon"></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-8">
-          <p class="info">Hello, my name is Ahmed El-Zein and I'm a graphic designer from Ottawa, Canada. This is how my creative mind works... I have the killer instinct; the <i>Mamba Mentality</i>. I know for a fact that any project I touch, I will blow your mind! All of the little details matter to me as I believe perfection can be achieved. My work is timeless; it holds it's integrity. My inspiration comes from exploration. Travelling the world and interacting with different people, cultures, and nature fuels my work and keeps my ideas fresh. Inspired by many great designers before me I also want to leave my mark in this field of visual communication.</p>
-        </div>
+    <div class="container pad-b-2 pad-t-2" style="color:#414042">
+      <h2 class="text-center island push-0" id="ABOUTME">About Me</h2>
+      <div class="info">
+        <p class="push-1-2">I'm a senior level designer from Ottawa, Canada. This is how my creative mind works... I have the killer instinct; the <i>Mamba Mentality</i>. I know for a fact that any project I touch, I will blow your mind! All of the little
+          details matter to me as I believe perfection can be achieved. My work is timeless; it holds it's integrity. My inspiration comes from exploration. Travelling the world and interacting with different people, cultures, and nature fuels my
+          work
+          and keeps my ideas fresh. Inspired by many great designers before me I also want to leave my mark in this field of visual communication.</p>
+        <a href="document/ahmed-elzein-resume.pdf" target="_blank" style="color:#ce0e2d;">
+          <p class="milli"><b>My Resume</b></p>
+        </a>
       </div>
     </div>
 
     <!-- Portfolio -->
-    <div class="container">
-      <h2 class="yotta text-center pad-t-1-2" id="portfolio.html">Portfolio</h2>
+    <div class="container" style="color:#414042">
+      <h2 class="text-center island" id="portfolio.html">Portfolio</h2>
       <div class="row">
-          <div class="col-6 col-sm-3">
-            <figure>
-              <img class="p-icon" src="images/icon-identity.svg" alt="Branding Icon; Fingerprint">
-              <figcaption><h3 class="p-title">Identity</h3></figcaption>
-            </figure>
-          </div>
 
-          <div class="col-6 col-sm-3">
-            <figure>
-              <img class="p-icon" src="images/icon-print.svg" alt="Print Icon; Printer">
-              <figcaption><h3 class="p-title">Print</h3></figcaption>
-            </figure>
-          </div>
+        <div class="col-6 col-sm-3">
+          <figure>
+            <img class="p-icon" src="images/icon-identity-blue.svg" alt="Branding Icon; Fingerprint">
+            <figcaption>
+              <h4 class="p-title">Identity</h4>
+            </figcaption>
+          </figure>
+        </div>
 
-          <div class="col-6 col-sm-3">
-            <figure>
-              <img class="p-icon" src="images/icon-ui-ux.svg" alt="UI/UX Icon; Desktop, Tablet & Mobile devices">
-              <figcaption><h3 class="p-title">UI/UX</h3></figcaption>
-            </figure>
-          </div>
+        <div class="col-6 col-sm-3">
+          <figure>
+            <img class="p-icon" src="images/icon-ui-ux-blue.svg" alt="UI/UX Icon; Desktop, Tablet & Mobile devices">
+            <figcaption>
+              <h4 class="p-title giga">UI/UX</h4>
+            </figcaption>
+          </figure>
+        </div>
 
-          <div class="col-6 col-sm-3">
-            <figure>
-              <img class="p-icon" src="images/icon-illustration.svg" alt="Illustration Icon; Pencil">
-              <figcaption><h3 class="p-title">Illustration</h3></figcaption>
-            </figure>
-          </div>
+        <div class="col-6 col-sm-3">
+          <figure>
+            <img class="p-icon" src="images/icon-print-blue.svg" alt="Print Icon; Printer">
+            <figcaption>
+              <h4 class="p-title">Print</h4>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="col-6 col-sm-3">
+          <figure>
+            <img class="p-icon" src="images/icon-illustration-blue.svg" alt="Illustration Icon; Pencil">
+            <figcaption>
+              <h4 class="p-title giga">Illustration</h4>
+            </figcaption>
+          </figure>
         </div>
       </div>
+    </div>
 
-      <div class="pad-b-2">
-        <h4 class="be-btn"><a href="portfolio.html">View Portfolio</a></h4>
-      </div>
-
+    <div class="pad-b-2">
+      <a href="portfolio.html">
+        <h4 class="be-btn">View Portfolio</h4>
+      </a>
+    </div>
   </article>
 
 
-  <footer style="background-color: #ff3b3f;">
-    <div class="navbar">
-      <div class="f-icon-box">
-        <a href="https://www.linkedin.com/in/ahmed-el-zein/"><img class="f-icon wordmark " src="images/icon-linkedin-white.svg" target="_blank" alt="Linkedin Icon"></a>
-        <a href="https://www.behance.net/ahmedelzein"><img class="f-icon wordmark " src="images/icon-behance-white.svg" target="_blank" alt="Behance Icon"></a>
-        <a href="mailto:elzeindesigns@gmail.com"><img class="f-icon wordmark" src="images/icon-mail-white.svg" alt="Mail Icon"></a>
+  <footer style="background-color: #f2f2f2; color: #414042;">
+    <div class="container pad-t-2">
+      <h4 class="strong push-0">I'm here to help...</h4>
+      <p class="milli">If you have a project that needs design expertise.</p>
+
+      <div class="box pad-b">
+        <div class="">
+          <img class="ahmed-avatar push-r" src="images/ahmed-avatar.svg" alt="Illustration of Ahmed El-Zein">
+
+          <a class="" href="https://ca.linkedin.com/pub/ahmed-el-zein/a4/469/316" target="_blank"><img class="icon" src="images/icon-linkedin-red.svg" alt="Linkedin Icon"></a>
+
+          <a class="gutter-1-2" href="https://www.behance.net/ahmedelzein" target="_blank"><img class="icon" src="images/icon-behance-red.svg" alt="Behance Icon"></a>
+
+          <a href="mailto:elzeindesigns@gmail.com" target="_blank"><img class="icon" src="images/icon-mail-red.svg" alt="Mail Icon"></a>
+        </div>
       </div>
 
-      <p class="micro push-0 f-copy">© 2021 Ahmed El-Zein | All Rights Reserved.</p>
+      <p class="micro push-0 pad-b">© 2021 Ahmed El-Zein | All Rights Reserved.</p>
     </div>
   </footer>
-
 </body>
+
 </html>
