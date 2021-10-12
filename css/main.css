@@ -420,6 +420,40 @@ footer .navbar {
   color: white;
 }
 
+/****************** Empire to Empower*****************/
+
+.ete-bg {
+  background: #decdf5;
+}
+
+.ete-btn {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  width: 80%;
+  background: #88498f;
+  color: #fff;
+  border-radius: 20px;
+  padding: 0.75em;
+}
+
+.ete-btn:hover {
+  color: white;
+  background: #410052;
+}
+
+.ete-link {
+  color: white;
+}
+
+.ete-link:hover {
+  color: #88498f;
+}
+
+.ete-btn a {
+  color: white;
+}
+
 
 /******************laundry care*****************/
 
@@ -477,6 +511,32 @@ footer .navbar {
   color: white;
 }
 
+/****************** CEBL App*****************/
+
+.cebl-bg {
+  background: #b4923e;
+}
+
+.cebl-btn {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  width: 80%;
+  background: #30638E;
+  color: #fff;
+  border-radius: 20px;
+  padding: 0.75em;
+}
+
+.cebl-btn:hover {
+  color: white;
+  background: #003D5B;
+}
+
+.cebl-btn a {
+  color: white;
+}
+
 /****************** Bench the Barriers*****************/
 
 .btb-bg {
@@ -530,6 +590,31 @@ footer .navbar {
   color: white;
 }
 
+/****************** African BBQ House*****************/
+
+.abbq-bg {
+  background: #ebebeb;
+}
+
+.abbq-btn {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  width: 80%;
+  background: #E85D04;
+  color: #fff;
+  border-radius: 20px;
+  padding: 0.75em;
+}
+
+.abbq-btn:hover {
+  color: white;
+  background: #dc2f02;
+}
+
+.abbq-btn a {
+  color: white;
+}
 
 /******************illustration*****************/
 
@@ -639,6 +724,9 @@ footer .navbar {
   .key-btn,
   .lc-btn,
   .cap-btn,
+  .cebl-btn,
+  .abbq-btn,
+  .ete-btn,
   .btb-btn,
   .w-btn,
   .illus-btn {
@@ -691,6 +779,9 @@ footer .navbar {
   .key-btn,
   .lc-btn,
   .cap-btn,
+  .cebl-btn,
+  .abbq-btn,
+  .ete-btn,
   .btb-btn,
   .w-btn,
   .illus-btn {
