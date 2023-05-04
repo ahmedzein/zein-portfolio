@@ -469,13 +469,13 @@ footer .navbar {
   color: white;
 }
 
-/****************** Empire to Empower*****************/
+/****************** Early Reveal*****************/
 
-.ete-bg {
-  background: #decdf5;
+.er-bg {
+  background: #ebc0da;
 }
 
-.ete-btn {
+.er-btn {
   margin: 0 auto;
   text-align: center;
   display: block;
@@ -486,20 +486,20 @@ footer .navbar {
   padding: 0.75em;
 }
 
-.ete-btn:hover {
+.er-btn:hover {
   color: white;
   background: #410052;
 }
 
-.ete-link {
+.er-link {
   color: white;
 }
 
-.ete-link:hover {
+.er-link:hover {
   color: #88498f;
 }
 
-.ete-btn a {
+.er-btn a {
   color: white;
 }
 
@@ -534,30 +534,30 @@ footer .navbar {
 }
 
 
-/****************** Canadian Army Podcast*****************/
+/****************** ABIS brand*****************/
 
-.cap-bg {
-  background: #6d8837;
+.abis-brand-bg {
+  background: #023e8a;
 }
 
-.cap-btn {
+.abis-brand-btn {
   margin: 0 auto;
   text-align: center;
   display: block;
   width: 80%;
-  background: #50593e;
+  background: #D5AC4E;
   color: #fff;
   border-radius: 20px;
   padding: 0.75em;
 }
 
-.cap-btn:hover {
-  color: white;
-  background: #3d442f;
+.abis-brand-btn:hover {
+  color: #000;
+  background: #BA9744;
 }
 
-.cap-btn a {
-  color: white;
+.abis-brand-btn a {
+  color: #000;
 }
 
 /****************** CEBL App*****************/
@@ -659,6 +659,14 @@ footer .navbar {
 .abbq-btn:hover {
   color: white;
   background: #dc2f02;
+}
+
+.abbq-link {
+  color: #E85D04;
+}
+
+.abbq-link:hover {
+  color: #dc2f02;
 }
 
 .abbq-btn a {
@@ -772,10 +780,10 @@ footer .navbar {
   .t2l-btn,
   .key-btn,
   .lc-btn,
-  .cap-btn,
+  .abis-brand-btn,
   .cebl-btn,
   .abbq-btn,
-  .ete-btn,
+  .er-btn,
   .btb-btn,
   .w-btn,
   .illus-btn {
@@ -827,10 +835,10 @@ footer .navbar {
   .t2l-btn,
   .key-btn,
   .lc-btn,
-  .cap-btn,
+  .abis-brand-btn,
   .cebl-btn,
   .abbq-btn,
-  .ete-btn,
+  .er-btn,
   .btb-btn,
   .w-btn,
   .illus-btn {
