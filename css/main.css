@@ -357,27 +357,53 @@ footer .navbar {
 }
 
 
-/******************new york times*****************/
+/****************** Encode Club*****************/
 
-.b-bg {
-  background: #d3ac2b;
+.eClub-bg {
+  background: #CEE8EC;
 }
 
-.b-btn {
+.eClub-btn {
   margin: 0 auto;
   text-align: center;
   display: block;
   width: 80%;
-  background: #f4f3ea;
+  background: #10C3E1;
   border-radius: 20px;
   padding: 0.75em;
 }
 
-.b-btn:hover {
-  background: #cbd0d8;
+.eClub-btn:hover {
+  background: #11ACC7;
 }
 
-.b-btn a {
+.eClub-btn a {
+  color: black;
+}
+
+/****************** Destinations *****************/
+
+.destinations-bg {
+  background: #F7D097;
+}
+
+.destinations-btn {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  width: 80%;
+  background: #FFA927;
+  color: #000;
+  border-radius: 20px;
+  padding: 0.75em;
+}
+
+.destinations-btn:hover {
+  color: #000;
+  background: #C47C10;
+}
+
+.destinations-btn a {
   color: black;
 }
 
@@ -407,33 +433,6 @@ footer .navbar {
 .jb-btn a {
   color: white;
 }
-
-/****************** Time2Learn *****************/
-
-.t2l-bg {
-  background: #cd925f;
-}
-
-.t2l-btn {
-  margin: 0 auto;
-  text-align: center;
-  display: block;
-  width: 80%;
-  background: #9fbade;
-  color: #fff;
-  border-radius: 20px;
-  padding: 0.75em;
-}
-
-.t2l-btn:hover {
-  color: #fff;
-  background: #4D7EA8;
-}
-
-.t2l-btn a {
-  color: white;
-}
-
 
 /******************3 in the key*****************/
 
@@ -466,6 +465,32 @@ footer .navbar {
 }
 
 .key-btn a {
+  color: white;
+}
+
+/****************** CEBL App*****************/
+
+.cebl-bg {
+  background: #FFDEA1;
+}
+
+.cebl-btn {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  width: 80%;
+  background: #FA710F;
+  color: #fff;
+  border-radius: 20px;
+  padding: 0.75em;
+}
+
+.cebl-btn:hover {
+  color: white;
+  background: #e37222;
+}
+
+.cebl-btn a {
   color: white;
 }
 
@@ -560,39 +585,13 @@ footer .navbar {
   color: #000;
 }
 
-/****************** CEBL App*****************/
+/****************** ABIS website*****************/
 
-.cebl-bg {
-  background: #b4923e;
-}
-
-.cebl-btn {
-  margin: 0 auto;
-  text-align: center;
-  display: block;
-  width: 80%;
-  background: #30638E;
-  color: #fff;
-  border-radius: 20px;
-  padding: 0.75em;
-}
-
-.cebl-btn:hover {
-  color: white;
-  background: #003D5B;
-}
-
-.cebl-btn a {
-  color: white;
-}
-
-/****************** Bench the Barriers*****************/
-
-.btb-bg {
+.abis-web-bg {
   background: #6897c8;
 }
 
-.btb-btn {
+.abis-web-btn {
   margin: 0 auto;
   text-align: center;
   display: block;
@@ -603,12 +602,38 @@ footer .navbar {
   padding: 0.75em;
 }
 
-.btb-btn:hover {
-  color: white;
+.abis-web-btn:hover {
+  color: #fff;
   background: #2a4b6d;
 }
 
-.btb-btn a {
+.abis-web-btn a {
+  color: #fff;
+}
+
+/****************** Fork & Spoon*****************/
+
+.forkspoon-bg {
+  background: #fff;
+}
+
+.forkspoon-btn {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  width: 80%;
+  background: #05273D;
+  color: #fff;
+  border-radius: 20px;
+  padding: 0.75em;
+}
+
+.forkspoon-btn:hover {
+  color: white;
+  background: #031927;
+}
+
+.forkspoon-btn a {
   color: white;
 }
 
@@ -775,16 +800,17 @@ footer .navbar {
     margin: 0 auto;
   }
   .be-btn,
-  .b-btn,
+  .eClub-btn,
   .jb-btn,
-  .t2l-btn,
+  .destinations-btn,
   .key-btn,
   .lc-btn,
   .abis-brand-btn,
+  .abis-web-btn,
   .cebl-btn,
   .abbq-btn,
   .er-btn,
-  .btb-btn,
+  .forkspoon-btn,
   .w-btn,
   .illus-btn {
     width: 44%;
@@ -830,16 +856,17 @@ footer .navbar {
     margin: 0 auto;
   }
   .be-btn,
-  .b-btn,
+  .eClub-btn,
   .jb-btn,
-  .t2l-btn,
+  .destinations-btn,
   .key-btn,
   .lc-btn,
   .abis-brand-btn,
+  .abis-web-btn,
   .cebl-btn,
   .abbq-btn,
   .er-btn,
-  .btb-btn,
+  .forkspoon-btn,
   .w-btn,
   .illus-btn {
     width: 22%;
