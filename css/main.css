@@ -384,7 +384,7 @@ footer .navbar {
 /****************** Destinations *****************/
 
 .destinations-bg {
-  background: #F7D097;
+  background: #B5EDB2;
 }
 
 .destinations-btn {
@@ -392,19 +392,19 @@ footer .navbar {
   text-align: center;
   display: block;
   width: 80%;
-  background: #FFA927;
+  background: #38686A;
   color: #000;
   border-radius: 20px;
   padding: 0.75em;
 }
 
 .destinations-btn:hover {
-  color: #000;
-  background: #C47C10;
+  color: white;
+  background: #305051;
 }
 
 .destinations-btn a {
-  color: black;
+  color: white;
 }
 
 
