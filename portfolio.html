@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&display=swap" rel="stylesheet">
   <link href="bootstrap/css/bootstrap-grid.css" rel="stylesheet">
   <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
@@ -22,61 +22,108 @@
     <li><a href="#navigation">Skip to main navigation</a></li>
   </ul>
 
-  <header id="totop">
-    <nav class="navbar pad-b">
-      <a href="index.html" role="button"><img src="images/ahmed-elzein-logo-black.svg" class="wordmark" alt="ahmed el-zein's wordmark"></a>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#" role="button"><img src="images/ahmed-elzein-logo-black.svg" class="wordmark" alt="ahmed el-zein's wordmark"></a>
 
-      <ul class="nav micro ml-auto">
-        <li class="nav-item"><a href="document/Ahmed_El-Zein_CV.pdf" target="_blank" class="micro hover-underline-animation-black" aria-label="Read my CV.">CV</a></li>
-      </ul>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a href="#ABOUTME" class="nav-item nav-link">About Me</a>
+          <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+          <a class="nav-item nav-link" href="document/Ahmed_El-Zein_CV.pdf" target="_blank" aria-label="Read my CV.">CV</a>
+          <a class="nav-item nav-link" href="#ContactMe" tabindex="-1" aria-disabled="true">Contact</a>
+        </div>
+      </div>
     </nav>
   </header>
 
   <article class="">
 <!--    Portfolio-->
 
+    <!--    Patek Philippe Website-->
+    <div class="pp-web-bg island-2">
+      <img class="pad-b-2 pieces" src="images/portfolio-piece-patek.png" alt="Patek Philippe watch, 6002R-001 Rose Gold">
+      <h2 class="zetta text-center push-0" style="color:#414042">Patek Philippe Website</h2>
+      <h3 class="mega text-center" style="color:#414042">eCommerce Website</h3>
+      <p class="text-center info pad-b-2" style="color:#414042">Embarking on a complete transformation, the mission was to reimagine Patek Philippe's website, setting the stage for it to stand as the premier online destination for the world's finest watchmaker.</p>
+      <div class="pad-b-2">
+        <a href="https://www.behance.net/gallery/186602355/Patek-Philippe-Website" class="pp-web-btn" role="button" aria-label="View my Patek Philippe eCommerce website project on Behance." target="_blank">View On Behance</a>
+      </div>
+    </div>
+
+    <!--    Bromley FC-->
+    <div class="bfc-bg island-2">
+      <img class="pad-b-2 pieces" src="images/portfolio-piece-bromleyfc.png" alt="Bromley FC kit">
+      <h2 class="zetta text-center push-0" style="color:#414042">Bromley FC</h2>
+      <h3 class="mega text-center" style="color:#414042">Brand</h3>
+      <p class="text-center info pad-b-2" style="color:#414042">The mission was to redefine Bromley FC’s identity, establishing a bold and unified presence that celebrates the club’s heritage while looking toward an ambitious future.</p>
+      <div class="pad-b-2">
+        <a href="https://www.behance.net/gallery/203820125/Bromley-Football" class="bfc-btn" role="button" aria-label="View my Bromley FC project on Behance" target="_blank">View On Behance</a>
+      </div>
+    </div>
+
+    <!--    Tatcha-->
+    <div class="tatcha-bg island-2">
+      <img class="pad-b-2 pieces" src="images/portfolio-piece-tatcha.png" alt="Mobile screen of the homepage for Tatcha with The Rice Polish Classic cream">
+      <h2 class="zetta text-center push-0" style="color:#414042">Tatcha</h2>
+      <h3 class="mega text-center" style="color:#414042">eCommerce Website</h3>
+      <p class="text-center info pad-b-2" style="color:#414042">Undertaking a complete website redesign, the mission was to elevate Tatcha’s digital presence, reflecting the brand’s luxurious and thoughtful approach to skincare.</p>
+      <div class="pad-b-2">
+        <a href="https://www.behance.net/gallery/202909343/Tatcha" class="tatcha-btn" role="button" aria-label="View my Tatcha project on Behance" target="_blank">View On Behance</a>
+      </div>
+    </div>
+
     <!--    Fork & Spoon-->
     <div class="forkspoon-bg island-2">
-      <img class="pad-b-2 pieces" src="images/piece-fork-spoon-app-icon.png" alt="Fork&Spoon app icon">
+      <img class="pad-b-2 pieces" src="images/portfolio-piece-forkspoon.png" alt="Fork&Spoon app, picture of the homescreen on a mobile">
       <h2 class="zetta text-center push-0" style="color:#414042">Fork & Spoon</h2>
       <h3 class="mega text-center" style="color:#414042">Mobile App</h3>
       <p class="text-center info pad-b-2" style="color:#414042">The ultimate cooking app designed to transform your culinary skills and revolutionize your mealtime experience.</p>
-      <p class="forkspoon-btn"><a href="https://www.behance.net/gallery/178571947/Fork-Spoon" target="_blank" role="button" aria-label="View my Fork & Spoon mobile app project on Behance.">View On Behance</a></p>
-    </div>
-
-    <!--    Patek Philippe Website-->
-    <div class="pp-web-bg island-2">
-      <img class="pad-b-2 pieces" src="images/piece-pp-watch.png" alt="Patek Philippe watch, 6002R-001 Rose Gold">
-      <h2 class="zetta text-center push-0" style="color:#FFF">Patek Philippe Website</h2>
-      <h3 class="mega text-center" style="color:#FFF">eCommerce Website</h3>
-      <p class="text-center info pad-b-2" style="color:#FFF">Embarking on a complete transformation, the mission was to reimagine Patek Philippe's website, setting the stage for it to stand as the premier online destination for the world's finest watchmaker.</p>
-      <p class="pp-web-btn"><a href="https://www.behance.net/gallery/186602355/Patek-Philippe-Website" target="_blank" role="button" aria-label="View my Patek Philippe eCommerce website project on Behance.">View On Behance</a></p>
-    </div>
-
-    <!--    CEBL App-->
-    <div class="cebl-bg island-2">
-      <img class="pad-b-2 pieces" src="images/piece-cebl-app.png" alt="Home screen of the CEBL app">
-      <h2 class="zetta text-center push-0">CEBL App</h2>
-      <h3 class="mega text-center">Mobile App</h3>
-      <p class="text-center info pad-b-2">To craft a cutting-edge mobile application for the Canadian Elite Basketball League.</p>
-      <p class="cebl-btn"><a href="https://www.behance.net/gallery/128053115/CEBL-App" target="_blank" role="button" aria-label="View my CEBL app project on Behance.">View On Behance</a></p>
+      <div class="pad-b-2">
+        <a href="https://www.behance.net/gallery/178571947/Fork-Spoon" class="forkspoon-btn" role="button" aria-label="View my Fork & Spoon mobile app project on Behance." target="_blank">View On Behance</a>
+      </div>
     </div>
 
     <!--    My Behance Portfolio-->
     <div class="island-2">
-      <img class="pad-b-2 piece-name" aria-label="image" role="main" src="images/icon-portfolio.svg" alt="ahmed el-zein's portfolio icon">
+      <img class="pad-b-2 piece-name" aria-label="image" role="main" src="images/ahmed-elzein-logo-colour.svg" alt="ahmed el-zein's logo">
       <h1 class="zeta text-center push-0">My Portfolio</h1>
       <p class="text-center info pad-b-2">Feel free to browse through my portfolio on my <a role="button">Behance</a> for more examples of my work.</p>
-      <p class="be-btn"><a href="https://www.behance.net/ahmedelzein" target="_blank" role="button" aria-label="View my portfolio on Behance.">Behance Page</a></p>
+      <div class="pad-b-2">
+        <a href="https://www.behance.net/ahmedelzein" class="be-btn"role="button" aria-label="View my portfolio on Behance." target="_blank">View On Behance</a>
+      </div>
     </div>
 
   </article>
 
-  <footer style="background-color: #f2f2f2; color: #414042;">
-    <div class="container island-1-2">
-      <p class=" text-center micro push-0">© 2024 Ahmed El-Zein | All Rights Reserved.</p>
+  <footer style="background-color: #e9ecef; color: #414042;" id="ContactMe">
+    <div class="container pad-t-2">
+      <h4 class="strong push-0">I'm here to help...</h4>
+      <p class="milli">If you have a project that needs design expertise.</p>
+
+      <div class="box pad-b">
+        <div class="">
+          <img class="ahmed-avatar push-r" src="images/ahmed-avatar.svg" alt="Illustration of Ahmed El-Zein">
+
+          <a class="" href="https://ca.linkedin.com/pub/ahmed-el-zein/a4/469/316" target="_blank" aria-label="Visit my Linkedin Profile."><img class="icon" src="images/icon-linkedin-red.svg" alt="Linkedin Icon"></a>
+
+          <a class="gutter-1-2" href="https://www.behance.net/ahmedelzein" target="_blank" aria-label="Visit my Behance Portfolio"><img class="icon" src="images/icon-behance-red.svg" alt="Behance Icon"></a>
+
+          <a href="mailto:elzeindesigns@gmail.com" target="_blank" aria-label="Send me an email at elzeindesigns@gmail.com"><img class="icon" src="images/icon-mail-red.svg" alt="Mail Icon"></a>
+        </div>
+      </div>
+
+      <p class="micro push-0 pad-b">© 2024 Ahmed El-Zein | All Rights Reserved.</p>
     </div>
   </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 
 </body>
 
