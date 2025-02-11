@@ -329,6 +329,7 @@ footer .navbar {
 /*****************************case studies************************************/
 
 .case-study {
+  position: relative;
   display: flex;
   cursor: pointer;
   width: 100%;
@@ -386,6 +387,12 @@ footer .navbar {
 
 .case-study:click .case-study-overlay {
   opacity: 1;
+}
+
+/*****************************carousel************************************/
+
+.carousel-height {
+  height: 300px;
 }
 
 /*****************************clients************************************/
