@@ -519,83 +519,83 @@ footer .navbar {
   color: white;
 }
 
-/****************** Patek Philippe website*****************/
+/****************** 3inthekey website*****************/
 
-/* .pp-web-bg {
+/* .thekey-web-bg {
   background: #1A120F;
 } */
 
-.pp-web-btn {
+.thekey-web-btn {
   margin: 0 auto;
   text-align: center;
   display: block;
-  width: 80%;
+  width: 60%;
   background: #fff;
   font-weight: bolder;
   border-radius: 50px;
   padding: 0.2em;
-  border: 3px solid #AB9470;
-  color: #AB9470;
+  border: 3px solid #C76C34;
+  color: #C76C34;
   transition-duration: 0.3s;
 }
 
-.pp-web-btn:hover {
-  background-color: #AB9470;
-  color: white;
+.thekey-web-btn:hover {
+  background-color: #C76C34;
+  color: #FFF;
 }
 
-/****************** Bromley FC*****************/
+/****************** R-ainbow*****************/
 
-.bfc-bg {
-  background: #b69563;
+.rainbow-bg {
+  background: #345a3c;
 }
 
-.bfc-btn {
+.rainbow-btn {
   margin: 0 auto;
   text-align: center;
   display: block;
   width: 80%;
-  background: #b69563;
+  background: #345a3c;
   font-weight: bolder;
   border-radius: 50px;
   padding: 0.2em;
-  border: 3px solid #414042;
-  color: #414042;
+  border: 3px solid #E2E2E2;
+  color: #E2E2E2;
   transition-duration: 0.3s;
 }
 
-.bfc-btn:hover {
-  background-color: #414042;
-  color: white;
+.rainbow-btn:hover {
+  background-color: #E2E2E2;
+  color: #345a3c;
 }
 
-/****************** Tatcha*****************/
+/****************** TFL*****************/
 
-.tatcha-bg {
-  background: #ad94da;
+.tfl-bg {
+  background: #8eb8e5;
 }
 
-.tatcha-btn {
+.tfl-btn {
   margin: 0 auto;
   text-align: center;
   display: block;
   width: 80%;
-  background: #ad94da;
+  background: #8eb8e5;
   font-weight: bolder;
   border-radius: 50px;
   padding: 0.2em;
-  border: 3px solid #4e1671;
-  color: #4e1671;
+  border: 3px solid #3E6FA2;
+  color: #3E6FA2;
   transition-duration: 0.3s;
 }
 
-.tatcha-btn:hover {
-  background-color: #4e1671;
+.tfl-btn:hover {
+  background-color: #3E6FA2;
   color: white;
 }
 
 /****************** Fork & Spoon*****************/
-
+/*
 .forkspoon-bg {
   background: #8eb8e5;
 }
@@ -617,7 +617,7 @@ footer .navbar {
 .forkspoon-btn:hover {
   background-color: #003369;
   color: white;
-}
+} */
 
 @media screen and (min-width: 25em) {
   .nav li {
@@ -698,10 +698,9 @@ footer .navbar {
     margin: 0 auto;
   }
   .be-btn,
-  .pp-web-btn,
-  .bfc-btn,
-  .tatcha-btn,
-  .forkspoon-btn {
+  .thekey-web-btn,
+  .rainbow-btn,
+  .tfl-btn {
     width: 44%;
   }
 
@@ -748,10 +747,9 @@ footer .navbar {
     margin: 0 auto;
   }
   .be-btn,
-  .pp-web-btn,
-  .bfc-btn,
-  .tatcha-btn,
-  .forkspoon-btn {
+  .thekey-web-btn,
+  .rainbow-btn,
+  .tfl-btn {
     width: 33%
   }
 
