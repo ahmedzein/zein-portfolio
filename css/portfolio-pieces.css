@@ -386,6 +386,8 @@ footer .navbar {
     }
 
     .bento-item-rainbow-1,
+    .bento-item-rainbow-2,
+    .bento-item-rainbow-3,
     .bento-item-rainbow-4,
     .bento-item-rainbow-7 {
         grid-column: span 2;
@@ -438,13 +440,15 @@ footer .navbar {
     }
 
     .bento-item-tfl-1 {
-      grid-column: span 1;
+      grid-column: span 2;
       grid-row: span 5;
     }
 
+    .bento-item-tfl-2,
+    .bento-item-tfl-3,
     .bento-item-tfl-4,
     .bento-item-tfl-7 {
-        grid-column: span 1;
+        grid-column: span 2;
     }
     .bento-img-tall {
       height: 33rem;
