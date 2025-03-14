@@ -345,7 +345,7 @@ footer .navbar {
 
 .case-study:hover img{
   /* filter: opacity(30%); */
-  filter: blur(8px);
+  filter: blur(15px);
   /* filter: grayscale(100%); */
 }
 
