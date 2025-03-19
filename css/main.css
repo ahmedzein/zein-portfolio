@@ -402,7 +402,7 @@ footer .navbar {
   width: 150px;
   display: block;
   margin: 0 auto;
-  padding-bottom: 30px;
+  /* padding-bottom: 30px; */
 }
 
 .clients:hover {
@@ -646,6 +646,9 @@ footer .navbar {
   }
   .bento-item-5 {
     grid-column: span 2;
+  }
+  .clients {
+    padding-top: 40px;
   }
 }
 
