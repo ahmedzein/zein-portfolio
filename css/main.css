@@ -544,18 +544,18 @@ footer .navbar {
   color: #FFF;
 }
 
-/****************** R-ainbow*****************/
+/****************** ForkandSpoon*****************/
 
-.rainbow-bg {
-  background: #345a3c;
+.forkandspoon-bg {
+  background: #b81200;
 }
 
-.rainbow-btn {
+.forkandspoon-btn {
   margin: 0 auto;
   text-align: center;
   display: block;
   width: 80%;
-  background: #345a3c;
+  background: #b81200;
   font-weight: bolder;
   border-radius: 50px;
   padding: 0.2em;
@@ -564,9 +564,9 @@ footer .navbar {
   transition-duration: 0.3s;
 }
 
-.rainbow-btn:hover {
+.forkandspoon-btn:hover {
   background-color: #E2E2E2;
-  color: #345a3c;
+  color: #b81200;
 }
 
 /****************** TFL*****************/
@@ -702,7 +702,7 @@ footer .navbar {
   }
   .be-btn,
   .thekey-web-btn,
-  .rainbow-btn,
+  .forkandspoon-btn,
   .tfl-btn {
     width: 44%;
   }
@@ -751,7 +751,7 @@ footer .navbar {
   }
   .be-btn,
   .thekey-web-btn,
-  .rainbow-btn,
+  .forkandspoon-btn,
   .tfl-btn {
     width: 33%
   }
