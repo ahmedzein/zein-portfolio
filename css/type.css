@@ -12,6 +12,8 @@ html {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  font-size:17px;
+  line-height:1.65;
 }
 
 body {
@@ -19,6 +21,8 @@ body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  font-size:17px;
+  line-height:1.65;
 }
 
 
@@ -203,6 +207,11 @@ small,
 .nano {
   font-size: 0.82rem;
   line-height: 1.2rem;
+}
+
+.tiny {
+  font-size: 0.205rem;
+  line-height: 0.3rem;
 }
 
 ul {
