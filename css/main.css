@@ -386,7 +386,7 @@ footer .navbar {
 
    .cs-tag-key {
     display: inline-block;
-    font-size: 0.4rem;
+    font-size: 0.6rem;
     text-transform: uppercase;
     font-weight: bolder;
     letter-spacing: 0.04em;
@@ -452,7 +452,7 @@ footer .navbar {
   }
   .cs-stat-label-key {
     color:#6E675E;
-    font-size: 0.5rem;
+    font-size: 0.8rem;
     line-height: 1.2rem;
   }
 
@@ -471,7 +471,7 @@ footer .navbar {
 
    .cs-tag-fork {
     display: inline-block;
-    font-size: 0.4rem;
+    font-size: 0.6rem;
     text-transform: uppercase;
     font-weight: bolder;
     letter-spacing: 0.04em;
@@ -524,7 +524,7 @@ footer .navbar {
   }
   .cs-stat-label-fork {
   color: #6E675E;
-  font-size: 0.5rem;
+  font-size: 0.8rem;
   line-height: 1.2rem;
   }
 
@@ -543,7 +543,7 @@ footer .navbar {
 
    .cs-tag-tfl {
     display: inline-block;
-    font-size: 0.4rem;
+    font-size: 0.6rem;
     text-transform: uppercase;
     font-weight: bolder;
     letter-spacing: 0.04em;
@@ -596,7 +596,7 @@ footer .navbar {
   }
   .cs-stat-label-tfl {
   color: #6E675E;
-  font-size: 0.5rem;
+  font-size: 0.8rem;
   line-height: 1.2rem;
   }
 
